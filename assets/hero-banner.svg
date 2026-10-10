@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="360" viewBox="0 0 1180 360" role="img"><defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#030810"/><stop offset=".55" stop-color="#0b1a2a"/><stop offset="1" stop-color="#101017"/></linearGradient>
+<linearGradient id="fire"><stop stop-color="#ffdd7b"/><stop offset=".45" stop-color="#ff8d25"/><stop offset="1" stop-color="#e34314"/></linearGradient>
+<radialGradient id="fog"><stop stop-color="#e3eef2" stop-opacity=".52"/><stop offset="1" stop-color="#7f9ba6" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#4b9ab4" stroke-opacity=".13"/></pattern>
+<filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs><rect width="1180" height="360" rx="14" fill="url(#bg)"/><rect width="1180" height="360" rx="14" fill="url(#grid)"/><path d="M0 6H1180" stroke="#ff822e" stroke-width="7"/><path d="M0 352H1180" stroke="#00d9ff" stroke-width="4"/>
+<path d="M45 56h95m-95 0v50M1135 56h-95m95 0v50M45 306h95m-95 0v-50M1135 306h-95m95 0v-50" fill="none" stroke="#00eaff" stroke-width="2" opacity=".65"/>
+<circle cx="948" cy="180" r="124" fill="none" stroke="#00eaff" opacity=".2"/><circle cx="948" cy="180" r="88" fill="none" stroke="#00eaff" opacity=".35"/><circle cx="948" cy="180" r="45" fill="none" stroke="#00eaff" opacity=".35"/>
+<path d="M948 37v286M805 180h286" stroke="#00eaff" opacity=".22"/>
+<g transform="translate(948 180)"><path d="M-42 0H-10M10 0H42M0-42V-10M0 10V42" stroke="#ff8d25" stroke-width="4" filter="url(#glow)"/><circle r="5" fill="#ff8d25"/></g>
+<path d="M815 180A133 133 0 0 1 1080 180" fill="none" stroke="#00eaff" stroke-width="3" stroke-dasharray="15 11"><animateTransform attributeName="transform" type="rotate" from="0 948 180" to="360 948 180" dur="12s" repeatCount="indefinite"/></path>
+<text x="58" y="92" fill="#00dfff" font-size="17" font-family="Consolas,monospace" >// MATCHMAKING  /  OPERATOR PROFILE</text><text x="58" y="164" fill="#ffffff" font-size="65" font-family="Consolas,monospace" font-weight="bold">23050111-CMD</text><text x="60" y="208" fill="#ff9a41" font-size="20" font-family="Consolas,monospace" >TACTICAL DEVELOPER  •  SYSTEM ONLINE</text><text x="60" y="253" fill="#d8edf6" font-size="17" font-family="Consolas,monospace" >BUILD WITH PRECISION. DEPLOY WITH CONFIDENCE.</text><text x="60" y="322" fill="#00dfff" font-size="15" font-family="Consolas,monospace" >CT // DEFENSE SYSTEMS</text><text x="845" y="322" fill="#ff9a41" font-size="15" font-family="Consolas,monospace" >T // OFFENSE MODE</text></svg>
